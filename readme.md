@@ -3,3 +3,4 @@
 3. To set a Clock with 0 before nums that loser than 10
 4. To make slider horizontal slide:3 
 5. To make a calculator with localstorage 
+6. Make cards menu dynamic with classes
