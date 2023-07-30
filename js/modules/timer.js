@@ -1,5 +1,4 @@
-function timer(){
-    const deadLine = '2024-01-01'
+function timer(id, deadLine){
 //deadLine & currentTime offset Func
     function timeRemaining(deadLine){
         const totalTime = Date.parse(deadLine) - Date.parse(new Date()), //ms to deadLine - current time
@@ -48,6 +47,6 @@ function timer(){
         }
     }
 
-    setClock('.timer', deadLine)
+    setClock(id, deadLine)
 }
-module.exports = timer
+export default timer
